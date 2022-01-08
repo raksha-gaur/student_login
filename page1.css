@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background :linear-gradient(135deg,#71b7e6,#9b59b6);
+}
+.container{
+    padding: 5px 10px 10px 5px;
+    border: 5px solid black;
+  background-color: white;
+    height: 300px;
+    width: 500px;
+   border-radius: 25px;
+}
+.login a{
+    font-size: 40px;
+    font-family: cursive;
+    align-items: center;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+
+}
+a:hover{
+    color:indigo ;
+    font-style: italic;
+    font-style: oblique;
+}
